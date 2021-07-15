@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #f69522;
+    overflow: hidden;
+}
+
+header div.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header img {
+    background-color: #ffffff;
+    border-radius: 50%;
+    float: left;
+}
+
+header .info {
+    overflow: hidden;
+    padding: 35px 0 0 50px;
+}
+
+header p {
+    float: left;
+    color: white;
+    width: 100%;
+}
+
+header p.name,
+header p.profession {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header p.name {
+    font-size: 24px;
+}
+
+header p.profession {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+section.theBody {
+    width: 75%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+section.theBody .leftInfo,
+section.theBody .rightInfo {
+    float: left;
+    width: 50%;
+}
+
+section.theBody h1 {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section.theBody .leftInfo .contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section.theBody .leftInfo .contact ul li>i {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+section.theBody .leftInfo .languages #english::-moz-progress-bar,
+section.theBody .leftInfo .languages #english::-webkit-progress-value {
+    background: #f69522;
+}
+
+section.theBody .leftInfo .languages #german::-moz-progress-bar,
+section.theBody .leftInfo .languages #german::-webkit-progress-value {
+    background: cyan;
+}
+
+section.theBody .leftInfo .languages #spanish::-moz-progress-bar,
+section.theBody .leftInfo .languages #spanish::-webkit-progress-value {
+    background: red;
+}
+
+section.theBody .leftInfo .languages progress {
+    width: 200px;
+}
+
+section.theBody .leftInfo .languages p {
+    margin-top: 15px;
+}
+
+section.theBody .leftInfo .info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+section.theBody .leftInfo .info p {
+    float: left;
+    margin: 15px 15px 15px 10px;
+}
+
+section.theBody .rightInfo h1 {
+    background-color: #f69522;
+    color: white;
+    font-size: 32px;
+    width: 75%;
+}
+
+section.theBody .rightInfo .project,
+section.theBody .rightInfo .education,
+section.theBody .rightInfo .experience {
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+section.theBody .rightInfo .project .title,
+section.theBody .rightInfo .education .title,
+section.theBody .rightInfo .experience .title {
+    font-weight: bold;
+}
+
+section.theBody .rightInfo .project .title span,
+section.theBody .rightInfo .education .title span,
+section.theBody .rightInfo .experience .title span {
+    padding-left: 10px;
+}
+
+footer .foot1,
+footer .foot2,
+footer .foot3 {
+    width: 33.333%;
+    height: 15px;
+    background-color: red;
+    float: left;
+}
+
+footer .foot2 {
+    background-color: #f69522;
+}
+footer .foot3 {
+    background-color: cyan;
+}
